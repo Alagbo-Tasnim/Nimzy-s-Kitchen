@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #192230, #192230);
+    color: white;
+    overflow-x: hidden;
+}
+#nav {
+    background: linear-gradient(135deg, #ffcd00, #2c2f38);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: 3px solid #192230;
+}
+#nav2 {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.container-fluid2 {
+    background: linear-gradient(135deg, #3d474e, #ffcd00);
+}
+.card {
+    border-radius: 7px;
+    border: none;
+    display: flex;
+    margin: 7px;
+}
+.row2 {
+    background: linear-gradient( #192230, #192230, #3d474e, #ffcd00);
+    margin: 12px;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 50px;
+    border: #192230;
+}
