@@ -11,7 +11,7 @@ body {
     border: 3px solid #192230;
 }
 #nav2 {
-    background: none;
+    background: linear-gradient(135deg, #ffcc0029, #2c2f382d);
     display: flex;
     align-items: center;
     justify-content: center;
