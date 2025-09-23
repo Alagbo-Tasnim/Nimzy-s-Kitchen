@@ -10,37 +10,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-    <nav class="navbar navbar-expand-sm" id="nav">
-        <div class="container-fluid">
-            <div>
-                <a class="navbar-brand" href="#"><i class="fas fa-bowl-food"></i></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="mainNavbar">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Cart</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <i class="fas fa-home m-3" style="color: white;"></i>
-                <i class="fab fa-instagram m-3" style="color: white;"></i>
-                <i class="fab fa-whatsapp m-3" style="color: white;"></i>
-            </div>
-        </div>
-    </nav>
+    <nav class="navbar navbar-expand-sm" id="nav2">
+                    <div class="container-fluid">
+                        <div>
+                            <a class="navbar-brand" href="index.html" style="color: #ffcd00;"><i class="fas fa-bowl-food m-2"
+                                    style="color: #ffcd00;"></i>All</a>
+                            <button class="navbar-toggler mx-auto" style="background: #ffcd00;" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#categoryNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="categoryNavbar">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a style="color: blue; text-decoration: none;" href="drinks.html"><i
+                                            class="fas fa-cocktail ml-3 mr-2 m-3" style="color: blue;"></i>Drinks</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a style="color: greenyellow; text-decoration: none;" href="african dishes.html"><i
+                                            class="fas fa-bowl-rice ml-3 mr-2 m-3"
+                                            style="color: greenyellow;"></i>African Dishes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a style="color: red; text-decoration: none;" href="spicy.html"><i
+                                            class="fas fa-pepper-hot ml-3 mr-2 m-3" style="color: red;"></i>Spicy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a style="color: orange; text-decoration: none;" href="pastries.html"><i
+                                            class="fas fa-pizza-slice ml-3 mr-2 m-3"
+                                            style="color: orange;"></i>Pastries</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="btn btn-danger" type="button">View All</button>
+                        </div>
+                    </div>
+                </nav>
     <div class="container">
         <div class="row2">
             <div class="col-md-12">
@@ -54,7 +60,7 @@
 
 <body>
     <div class="container p-3 mt-5">
-        <div class="row g-3 mb-5">
+        <div class="row g-3 mt-5">
             <div class="col-md-4">
                 <div class="card mb-3">
                     <img src="img/drinks/banana milkshake.jpg" style="max-width: 100%; height: auto;" alt="">
