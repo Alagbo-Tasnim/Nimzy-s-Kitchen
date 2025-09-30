@@ -27,7 +27,7 @@ body {
     display: flex;
     margin: 7px;
 }
-.row2 {
+#container {
     background: linear-gradient( #192230, #192230, #3d474e, #ffcd00);
     margin: 12px;
     padding: 70px;

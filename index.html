@@ -7,16 +7,10 @@
     <title>Nimzy Treats</title>
     <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link rel="stylesheet" href="assets/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="assets/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/all.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<body>
     <header>
         <nav class="navbar navbar-expand-sm sticky-top" id="nav">
             <div class="container-fluid">
@@ -50,7 +44,7 @@
             </div>
         </nav>
         <div class="container">
-            <div class="row2">
+            <div class="row" id="container">
                 <div class="col-md-12">
                     <i class="fas fa-bowl-food" style="width: 100%; height: 100%; color: #ffcd00;">
                         <h1 style="color: #ffcd00;">Nimzy's Kitchen</h1>
@@ -60,7 +54,7 @@
         </div>
     </header>
 
-<body>
+
     <section>
         <div class="container-fluid p-3 mt-5">
             <div class="row g-3 m-2 mt-5">
@@ -70,8 +64,8 @@
                             <div>
                                 <a class="navbar-brand" href="#" style="color: #ffcd00;"><i class="fas fa-bowl-food m-2"
                                         style="color: #ffcd00;"></i>All</a>
-                                <button class="navbar-toggler mx-auto" style="background: #ffcd00;" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#categoryNavbar">
+                                <button class="navbar-toggler mx-auto" style="background: #ffcd00;" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#categoryNavbar">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                             </div>
@@ -83,8 +77,8 @@
                                                 style="color: blue;"></i>Drinks</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a style="color: greenyellow; text-decoration: none;" href="african dishes.html"><i
-                                                class="fas fa-bowl-rice ml-3 mr-2 m-3"
+                                        <a style="color: greenyellow; text-decoration: none;"
+                                            href="african dishes.html"><i class="fas fa-bowl-rice ml-3 mr-2 m-3"
                                                 style="color: greenyellow;"></i>African Dishes</a>
                                     </li>
                                     <li class="nav-item">
@@ -100,109 +94,111 @@
                                 </ul>
                             </div>
                             <div>
-                                <button class="btn btn-danger" type="button">View All</button>
+                                <a href="viewall.html"><button class="btn btn-danger" type="button">View
+                                        All</button></a>
                             </div>
                         </div>
                     </nav>
                 </div>
 
-        <div class="col-md-4">
-            <div class="card mb-3">
-                <img src="img/pasta.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Pasta</h4>
-                    <p>Rich, velvety tossed with perfectly cooked pasta.</p>
-                    <div>
-                        <h5 style="color: red;">₦4,800<button class="btn btn-warning" style="margin-left: 170px;"
-                                type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="img/pasta.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Pasta</h4>
+                            <p>Rich, velvety tossed with perfectly cooked pasta.</p>
+                            <div>
+                                <h5 style="color: red;">₦4,800<button class="btn btn-warning"
+                                        style="margin-left: 170px;" type="button"><i
+                                            class="fas fa-shopping-cart text-dark"></i></button></h5>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/burgers.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Burger</h4>
+                            <p>Juicy grilled patty with fresh lettuce,tomato and cheese.</p>
+                            <h5 style="color: red;">₦3,500<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/cookies.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Sugar cookies</h4>
+                            <p>Crisp, buttery cookies coated with sugar sparkles.</p>
+                            <h5 style="color: red;">₦1,000<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/iiii.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Croissant</h4>
+                            <p>Flaky, golden pastry with a soft chocolate filled center.</p>
+                            <h5 style="color: red;">₦1,500<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/shawarma.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Chicken Wraps</h4>
+                            <p>Tender grilled ckicken, crisp veggies and creamy sauce in a soft tortilla.</p>
+                            <h5 style="color: red;">₦5,000<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/pizza.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Pepperoni Pizza</h4>
+                            <p>Cheesy, oven-baked pizza topped with spicy pepperoni slices.</p>
+                            <h5 style="color: red;">₦6,500<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/chococake.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Chocolate Cake</h4>
+                            <p>Moist, rich chocolate sponge layered with silky frosting.</p>
+                            <h5 style="color: red;">₦12,000<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/meatpie.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Meat Pie</h4>
+                            <p>Golden, flaky pastry filled with seasoned minced meat and veggies.</p>
+                            <h5 style="color: red;">₦1,800<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3"><img src="img/donuts.jpg" style="max-width: 100%; height: auto;" alt="">
+                        <div class="card-body">
+                            <h4>Donuts</h4>
+                            <p>Soft, fluffy rings coated in a sweet, glossy glaze.</p>
+                            <h5 style="color: red;">₦900<button class="btn btn-warning" style="margin-left: 170px;"
+                                    type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/burgers.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Burger</h4>
-                    <p>Juicy grilled patty with fresh lettuce,tomato and cheese.</p>
-                    <h5 style="color: red;">₦3,500<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/cookies.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Sugar cookies</h4>
-                    <p>Crisp, buttery cookies coated with sugar sparkles.</p>
-                    <h5 style="color: red;">₦1,000<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/iiii.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Croissant</h4>
-                    <p>Flaky, golden pastry with a soft chocolate filled center.</p>
-                    <h5 style="color: red;">₦1,500<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/shawarma.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Chicken Wraps</h4>
-                    <p>Tender grilled ckicken, crisp veggies and creamy sauce in a soft tortilla.</p>
-                    <h5 style="color: red;">₦5,000<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/pizza.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Pepperoni Pizza</h4>
-                    <p>Cheesy, oven-baked pizza topped with spicy pepperoni slices.</p>
-                    <h5 style="color: red;">₦6,500<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/chococake.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Chocolate Cake</h4>
-                    <p>Moist, rich chocolate sponge layered with silky frosting.</p>
-                    <h5 style="color: red;">₦12,000<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/meatpie.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Meat Pie</h4>
-                    <p>Golden, flaky pastry filled with seasoned minced meat and veggies.</p>
-                    <h5 style="color: red;">₦1,800<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-3"><img src="img/donuts.jpg" style="max-width: 100%; height: auto;" alt="">
-                <div class="card-body">
-                    <h4>Donuts</h4>
-                    <p>Soft, fluffy rings coated in a sweet, glossy glaze.</p>
-                    <h5 style="color: red;">₦900<button class="btn btn-warning" style="margin-left: 170px;"
-                            type="button"><i class="fas fa-shopping-cart text-dark"></i></button></h5>
-                </div>
-            </div>
-        </div>
-        </div>
         </div>
     </section>
 
@@ -220,9 +216,9 @@
                 <div class="col-md-3 align-items-center text-center mb-5">
                     <h1>CONTACT US</h1>
                     <div>
-                        <i class="fab fa-instagram m-3"></i>@Nimzy<br>
-                        <i class="fas fa-envelope m-3"></i>alagbotasnim@gmail.com<br>
-                        <i class="fab fa-whatsapp m-3"></i>+234 701-865-2862
+                        <i class="fab fa-instagram m-3"></i>@Codex_ity<br>
+                        <i class="fas fa-envelope m-3"></i>hello@codexity.com<br>
+                        <i class="fab fa-whatsapp m-3"></i>123-456-7890
                     </div>
                 </div>
                 <div class="col-md-3 align-items-center text-center mb-5">
@@ -241,7 +237,7 @@
 
                 <div id="space">
                     <div class="col-md-12 text-center mb-2 mt-3 p-3">
-                        <p>© 2025 PastryBlog - All rights reserved <br> Author: Alagbo Tasnim</p>
+                        <p>© 2025 Codex_ity 💻🎨 All rights reserved.</p>
                     </div>
                 </div>
             </div>
